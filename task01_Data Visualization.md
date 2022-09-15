@@ -30,11 +30,8 @@ Seaborn主要用于统计分析绘图，它基于Matplotlib进行了更高级的
 	- Axis：代表**坐标轴对象**，本质是一种带装饰的 spines，一般分为 xaxis 和 yaxis，Axis对象主要用于控制数据轴上的刻度位置和显示数值。
 	- Spines：表示数据显示区域的边界，可以显示或不显示。
 	- Artist：表示任何显示在 Figure 上的元素，Artist 是很通用的概念，几乎任何需要绘制的元素都可以当成是 Artist，但是一个 Artist 只能存在于一个 Axes 之上
-
-[figure示意图]
-(https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913204855.png)
-[图表元素]
-(https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913205636.png)
+[figure示意图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913204855.png)
+[图表元素](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913205636.png)
 
 matplotlib绘图类型及参数：
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
@@ -1044,7 +1041,6 @@ Plotnine中的图层可以分为：必备图层和可选图层
 ## 5.4 时间序列型图表
 1. 时间序列线图：包括单序列与多序列折线图
 2. 日历图：反映数据的周期性信息，参考ggplot2使用方法，beautiful！
-
 [日历图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915165327.png)
 ## 5.5 空间分布图表
 *暂时用不着，而且有点难就先搁这嘿嘿*
