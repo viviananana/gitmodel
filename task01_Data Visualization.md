@@ -604,6 +604,7 @@ matplotlib绘图类型及参数：
 
 # 4.Plotnine绘图基础
 Plotnine中的图层可以分为：必备图层和可选图层
+
 **1. 必选图层**
 - ggplot()图层：底层绘图函数，ggplot()函数可以将绘图和数据分离，在ggplot内可以设置数据以及数据的映射，如：ggplot(data, aes(x='col_x', y='y_value', fill='col_class'))。因此，在ggplot()中，除了设置数据外，还可以设置变量的映射aes()，用来表示x和y，还可以在aes()内控制颜色color、大小size和形状shape等等。
 - geom_xxx()图层：几何对象，即在图中实际看到的图形元素，总结：
