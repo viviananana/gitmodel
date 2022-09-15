@@ -31,9 +31,10 @@ Seaborn主要用于统计分析绘图，它基于Matplotlib进行了更高级的
 	- Spines：表示数据显示区域的边界，可以显示或不显示。
 	- Artist：表示任何显示在 Figure 上的元素，Artist 是很通用的概念，几乎任何需要绘制的元素都可以当成是 Artist，但是一个 Artist 只能存在于一个 Axes 之上
 
-![[Pasted image 20220913204855.png]]
-图表元素：
-![[Pasted image 20220913205636.png]]
+[figure示意图]
+(https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913204855.png)
+[图表元素]
+(https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220913205636.png)
 
 matplotlib绘图类型及参数：
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
@@ -1025,25 +1026,26 @@ Plotnine中的图层可以分为：必备图层和可选图层
 -是否存在趋势之外的点：离群点；
 
 2. 进阶散点图：添加**回归趋势线**，使趋势性规律更具说服性
-![[Pasted image 20220915152115.png]]
+[趋势散点图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915152115.png)
 3. Q-Q图和P-P图：
 4. 聚类散点图
 5. 相关系数矩阵图(heatmap)：适用于体现多维度之间的关系，每个点都代表两变量之间的相关系数
-![[Pasted image 20220915161631.png]]
+[heatmap](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915161631.png)
 ## 5.3 数据分布型图表
 用于描述数据的密集或者稀疏情况
 1. 统计直方图
 2. 核密度图：用连续区间来描述数据分布
-![[Pasted image 20220915162521.png]]
+[核密度图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915162521.png)
 3. 箱线图：箱子宽度代表数据量
-![[Pasted image 20220915162510.png]]
+[箱线图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915162510.png)
 4. 提琴图：箱线图和核密度图的结合（如下图所示）
-![[Pasted image 20220915163254.png]]
+[提琴图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915163254.png)
 5. 饼图/环饼图（仅matplotlib）
 ## 5.4 时间序列型图表
 1. 时间序列线图：包括单序列与多序列折线图
 2. 日历图：反映数据的周期性信息，参考ggplot2使用方法，beautiful！
-![[Pasted image 20220915165327.png]]
+
+[日历图](https://github.com/viviananana/gitmodel/blob/3fb0cfe0b9091b19434f1ddb2def7d4cfd21e3ff/Pasted%20image%2020220915165327.png)
 ## 5.5 空间分布图表
 *暂时用不着，而且有点难就先搁这嘿嘿*
 
