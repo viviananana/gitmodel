@@ -5,7 +5,7 @@
 - 通俗易懂，不能太专业
 
 # 2.Python三大可视化工具库
-## matplotlib
+## 1.matplotlib
 	import matplotlib.pyplot as plt
 特征：一句代码相当于图上的一个笔画
 **基本参数**
@@ -15,9 +15,9 @@
 - 设置y轴标签的label：plt.ylabel('y')
 - 设置图表的标题：plt.title('y = sin(x)')
 - 展示图表：plt.show()
-## seaborn
+## 2.seaborn
 Seaborn主要用于统计分析绘图，它基于Matplotlib进行了更高级的API封装，更加易用，可作为mpl的补充
-## plotnine
+## 3.plotnine
 优点：采用”图层“概念，一句代码相当于向图像中添加一个图层
 缺点：Plotnine只能绘制直角坐标图，无法绘制类似于饼图、环图等图表
 
