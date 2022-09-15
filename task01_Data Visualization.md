@@ -977,6 +977,7 @@ Plotnine中的图层可以分为：必备图层和可选图层
 		</td>
 	</tr>
 </table>
+
 - coord_xxx()图层：坐标系图层
     - coord_cartesian()
     - coord_equal()
