@@ -126,4 +126,4 @@ $$
 2. 学习了OLS最小二乘法估计，以及残差、RSS、TSS等统计量的定义
 3. 在满足CLM假设的前提下，OLS估计是经典线性模型最优的参数估计法
 
-*显示不了公式why？？安装了MathJax 3 Plugin for Github呀
+*显示不了公式why？？安装了MathJax 3 Plugin for Github呀。。。looks like shit
