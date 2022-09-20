@@ -44,9 +44,11 @@ $$
 $$
 ## 2.2 OLS求解
 记目标函数为：
+
 $$
 Q\left(\hat{\beta}_{0}, \hat{\beta}_{1}, \cdots, \hat{\beta}_{k}\right)=\sum_{i=1}^{n}\left(y_{i}-\hat{\beta}_{0}-\hat{\beta}_{1} x_{i 1}-\cdots-\hat{\beta}_{k} x_{i k}\right)^{2}
 $$
+
 这是一个以$(\hat{\beta}_{0}, \hat{\beta}_{1}, \cdots, \hat{\beta}_{k})$作为未知变量的多元函数，**我们要求得最小值点，可以令各元偏导数等于0**，构建一个$k+1$维的方程组求解：
 
 $$
